@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+}
+
+/* Si utilizza il formato di tabella per allineare "html" e "body" e ottenere 
+un'immagine di sfondo che si adatta a qualsiasi risoluzione di schermo */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  display: table;
+}
+
+body {
+  display: table-cell;
+
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.contenitore {
+
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 55%;
+  padding: 100px;
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Poppins', Arial;
+}
+
+/*Intestazione*/
+
+header>.logo {
+  width: 25%;
+}
+
+header>h1 {
+  color: rgb(0, 221, 0);
+}
+
+/*Sezione pulsanti*/
+
+nav {
+  background-color: rgb(0, 221, 0);
+  padding: 13px;
+}
+
+nav > button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Sezione monopattini*/
+
+main > section {
+  margin-top: 20px;
+  text-align: left;
+  color: white;
+}
+
+section > h2 {
+  display: inline-block;
+}
+
+section > span {
+  display: block;
+}
+
+/*Barre di carica dei monopattini*/
+
+section>.carica {
+  width: 30%;
+  height: 30px;
+  background-color: rgb(245, 180, 83);
+  border-radius: 5px;
+}
+
+section>.carica1 {
+  width: 60%;
+  height: 30px;
+  background-color: rgb(30, 185, 30);
+  border-radius: 5px;
+}
+
+section>.carica2 {
+  width: 14%;
+  height: 30px;
+  background-color: rgb(190, 65, 65);
+  border-radius: 5px;
+}
