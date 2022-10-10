@@ -39,11 +39,11 @@ body {
 
 /*Intestazione*/
 
-header>.logo {
+header > .logo {
   width: 25%;
 }
 
-header>h1 {
+header > h1 {
   color: rgb(0, 221, 0);
 }
 
@@ -76,21 +76,21 @@ section > span {
 
 /*Barre di carica dei monopattini*/
 
-section>.carica {
+section > .carica {
   width: 30%;
   height: 30px;
   background-color: rgb(245, 180, 83);
   border-radius: 5px;
 }
 
-section>.carica1 {
+section > .carica1 {
   width: 60%;
   height: 30px;
   background-color: rgb(30, 185, 30);
   border-radius: 5px;
 }
 
-section>.carica2 {
+section > .carica2 {
   width: 14%;
   height: 30px;
   background-color: rgb(190, 65, 65);
